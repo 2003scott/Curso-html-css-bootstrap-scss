@@ -1,0 +1,41 @@
+.padre{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: wheat;
+}
+
+.padre:hover .hijo{
+    animation: mover 4s ease-in-out infinite forwards alternate;
+    animation-play-state: initial;
+}
+
+@keyframes mover{
+    0%{
+        background-color: burlywood;
+    }
+    25%{
+        background-color: red;
+        transform: translateX(100%);
+        
+    }
+    50%{
+        background-color: green;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: yellow;
+        transform: translateY(100%);
+        
+    }
+    100%{
+        background-color: aqua;
+        
+    }
+}

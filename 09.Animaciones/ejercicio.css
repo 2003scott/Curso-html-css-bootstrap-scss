@@ -1,0 +1,27 @@
+.boton{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    background-color: blue
+}
+
+.btn-modern{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;   
+    background-color: green; 
+    transition: transform 0.4s; 
+}
+
+.boton .btn-modern:hover{
+    transform: translateY(-5px);
+    border-bottom: solid 1px rgb(14, 49, 14);
+    background-color: greenyellow;
+}
