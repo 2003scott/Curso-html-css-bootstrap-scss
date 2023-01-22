@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hover{
+    height: 100px;
+    width: 300px;
+    background-color: blueviolet;
+    overflow: auto;
+}
+
+.hover:hover{
+    background-color: blue;
+}
+
+.listado{
+    padding: 15px;
+    background-color: aqua;
+}
+
+.listado p:first-child{ /*solo da al la clase listado p que sean primero en la lista*/
+    color: white;
+}
+
+.listado:hover{
+    background-color: brown;
+}
+
+a:link{/*link no visitado aun*/
+    color: deeppink;
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: chartreuse;
+}

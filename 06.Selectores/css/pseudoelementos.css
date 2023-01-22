@@ -1,0 +1,50 @@
+*::selection{
+    background-color: chocolate;
+    color: aqua;
+}
+div{
+    background-color: blue;
+}
+
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+}
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+
+span.frase::after{
+    content: '>>';
+}
+
+.libro{
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial;
+
+}
+
+.libro p::first-letter{
+    font-size: xx-large;
+}
+
+.libro p::first-line{
+    color: red;
+}
+
+.libro p::selection{
+    background-color: chocolate;
+    color: limegreen;
+}
+
+.listado ul li::marker{
+    color: red;
+}

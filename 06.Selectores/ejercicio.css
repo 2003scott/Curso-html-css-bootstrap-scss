@@ -1,0 +1,25 @@
+.boton .pseudo-elemento{
+    border: 0;
+}
+
+.boton .pseudo-elemento::before{
+    content: "Guardar" ;
+    color: aqua;
+    background-color: blue;
+}
+
+.boton .pseudo-elemento:hover::before{
+    background-color: green;
+    color: azure;
+    content: "Has Click para guardar!" ;
+}
+
+.boton .pseudo-elemento:hover:active::before{
+    background-color: green;
+    color: azure;
+    content: "Hecho sin problemas!" ;
+}
+
+
+
+
