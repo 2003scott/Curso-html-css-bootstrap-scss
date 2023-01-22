@@ -1,0 +1,33 @@
+h1{
+    color:red;
+}
+p{
+    color: blue;/*este cambia el color de la letra parrafo*/
+    font-size: 16px; /*este cambia tamaño de letra */
+}
+
+/*aca accedemos alos id -- si hay otro con el mismo id se le 
+la letra ps como ejemplo para accdeser en ese solo especifico*/
+p#primera-noticia{
+    color: green;
+    font-size: 20px;
+}
+#segunda-noticia{
+    color: blueviolet;
+    font-size: 18px;
+}
+
+/**aca accdemos ala class emcabezado */
+.encabezado{
+    font-size: 24pt;
+    color: brown;
+    text-transform: uppercase;/*aca decimos que hace todo mayusca*/
+}
+
+*.warning{
+    color: red;
+}
+
+.autor, .fecha , .ubicacion{
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 700;/*letra negrita o peso*/
+    font-style: italic;
+}
+*{
+    background-color: blue;
+}
