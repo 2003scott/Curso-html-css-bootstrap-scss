@@ -1,0 +1,14 @@
+//componentes
+@use "sass/componentes" as comp;
+//$color
+//$color --> comp.$color
+
+//mixins
+@import "sass/mixins";
+//$color
+
+//estilos
+@import "sass/estilos";
+
+//otros
+//@use "sass/builtin";
